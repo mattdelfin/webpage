@@ -31,10 +31,10 @@ section {
     height: 500px; 
 }
 #box1 img{
-    margin-top: 10px;
-    margin-left: 45px;
-    width: 18rem;
-    height: 15rem;
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
 }
 .feed-img {
     /* min-width: 20r;
@@ -92,20 +92,26 @@ section {
     max-height: 200px;
     background-color: #DFCCFB;
 }
-.links img{
-    display:flex;
-    justify-content: left;
+.external_link_items{
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-evenly;
+}
+.external_link_item{
+    justify-content: center;
+}
+.external_link_item img{
+    margin:auto;
+    display: block;
     width: 5rem;
     height: 5rem;
 }
-.links a{
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
+.external_link_item a{
+    font-size: 1.5em;
     text-align: center;
     color: rgb(0, 0, 0);
-    padding: 0 20px;
-    margin: 20px;
+    margin: auto;
     text-decoration: none;
     border-radius: 20px;
+    display:block;
 }
